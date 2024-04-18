@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.profile-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-main-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 0px 50px;
+}
+
+.header-profile-section {
+    padding: 40px 0px 0px 50px;
+
+}
+
+.header-right-section {
+    width: 70%;
+}
+
+.profile-buttons button {
+    border: none;
+    background-color: white;
+    margin: 20px 15px 10px 15px;
+    cursor: pointer;
+}
+
+.profile-buttons button img {
+    width: 20px;
+
+}
+
+
+.header-profile-section .only-profile {
+    width: 190px;
+    border-radius: 25px;
+}
+
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 11px 62px 11px 62px;
+    margin-left: 10px;
+    border: solid 1px #9c9b9b;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #FF5588;
+    transform: rotate(2px);
+
+}
+
+.right-part h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 60px;
+    margin-bottom: 30px;
+    color: #181818;
+    padding-top: 13px;
+
+
+
+
+}
+
+.right-part p {
+    padding-bottom: 41px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+
+
+}
+
+.numbers-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+
+}
+
+.pink-color {
+    color: #FF5588;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 33px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.numbers-parts {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+
+}
+
+.numbers {
+    padding: 0px 30px;
+}
+
+.numbers h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    color: #FF5588;
+
+
+
+}
+
+
+.text-setting {
+    margin: 150px 0px 150px 0px;
+
+
+}
+
+.text-setting h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #181818;
+    padding-top: 13px;
+
+}
+
+.text-setting p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+}
+
+
+.second-part-text {
+    margin: 150px 0px 150px 0px;
+}
+
+.second-part-text h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #181818;
+    padding-top: 13px;
+}
+
+.education-and-exp-section {
+    margin-top: 30px;
+}
+
+.months-years-span {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    font-family: "Inter", sans-serif;
+
+}
+
+.ed-exp-heading {
+    color: #181818;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 150px 0px;
+
+}
+
+.services-card-1 {
+    border: solid 1px #FF5588;
+    margin: 30px 0px 0px 20px;
+    padding: 20px 40px;
+    border-radius: 12px;
+
+
+}
+
+.services-card-1 h3 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #181818;
+    font-family: "Inter", sans-serif;
+
+}
+
+.services-card-1 span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+    font-family: "Inter", sans-serif;
+}
+
+.services-card-two-three {
+    border: solid 1px #363535;
+    margin: 30px 0px 0px 20px;
+    padding: 22px 40px;
+    border-radius: 12px;
+}
+
+.services-card-two-three h3 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #181818;
+    font-family: "Inter", sans-serif;
+}
+
+.services-card-two-three span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+
+.skills-parts h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #181818;
+    padding-top: 13px;
+
+
+}
+
+.heading-services h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    color: #181818;
+    padding-top: 13px;
+}
+
+
+
+.coures-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 40px 0px 100px 0px;
+
+}
+
+.coures-images img {
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.Portfolio-part {
+    margin-bottom: 100px;
+}
+
+.Portfolio-part h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    color: #181818;
+    padding-top: 13px;
+    padding-bottom: 30px;
+
+
+}
+
+.img-1 {
+    width: 80%;
+
+
+}
+
+.img-2 {
+    width: 39%;
+    padding: 5px 5px 0px 0px;
+}
+
+.img-3 {
+    padding: 5px 0px 0px 10px;
+    width: 39%;
+}
+
+
+
+.girl-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.tex-set {
+    margin-left: 20px;
+}
+
+.tex-set span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.tex-set h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #181818;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-rightside-text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    color: #181818;
+    padding-top: 13px;
+    padding-bottom: 34px;
+}
+
+.girl-card-bng-br {
+    border: solid 1px rgb(13, 153, 255);
+    width: 60%;
+    padding: 70px 70px 40px 70px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.card-buttom-text p {
+    font-size: 20.30px;
+    font-weight: 400;
+    line-height: 31px;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+
+
+
+}
+
+.brand-part-buttom-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+
+}
+
+.brand-part-buttom-icons img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.brand-main-div {
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.brand-heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    color: #181818;
+    padding-top: 13px;
+    padding-bottom: 30px;
+}
+
+.form-setting input {
+    width: 60%;
+    height: 38px;
+    border: none;
+    border-bottom: solid 1px rgb(233, 228, 230);
+    padding-bottom: 5px;
+
+}
+
+.form-setting input:focus {
+    outline: none;
+
+}
+
+.form-setting {
+    margin-top: 80px;
+}
+
+.form-setting textarea {
+    width: 60%;
+    height: 80px;
+    border: none;
+    border-bottom: solid 1px rgb(233, 228, 230);
+    padding-top: 20px;
+}
+
+.form-setting textarea:focus {
+    outline: none;
+}
+
+.main-section-form {
+    margin-top: 130px;
+}
+
+.main-section-form button {
+    border: none;
+    background-color: white;
+    border: solid 1px #9c9b9b;
+    border-radius: 15px;
+    padding: 20px 80px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+
+
+}
+
+.main-section-form button:hover {
+    cursor: pointer;
+    background-color: #FF5588;
+    color: white;
+}
+
+.form-setting label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+    color: #333333;
+}
